@@ -189,13 +189,6 @@ public class Frag01 extends Fragment {
 
         //リスト表示(読み込み受付）
         ListView listview = (ListView)view.findViewById(R.id.lap_list);
-
-        //広告表示
-        MobileAds.initialize(getActivity().getApplicationContext(),"ca-app-pub-8417122983180836~7359391360");
-        AdView mAdView = view.findViewById(R.id.adView);
-        AdRequest adRequest = new AdRequest.Builder().build();
-
-        mAdView.loadAd(adRequest);
     }
 
     //スタートボタン処理
